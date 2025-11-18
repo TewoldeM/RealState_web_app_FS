@@ -1,4 +1,4 @@
-@import "../../responsive.scss";
+@use "../../responsive.scss" as *;
 
 .layout {
   height: 100vh;
@@ -27,6 +27,6 @@
 
   .content {
     flex: 1;
-    background-color: rebeccapurple;
+    // background-color: rgb(219, 209, 228);
   }
 }

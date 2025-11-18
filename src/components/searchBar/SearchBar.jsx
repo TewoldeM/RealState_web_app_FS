@@ -59,7 +59,6 @@ function SearchBar() {
         <button>
           <a
             to={`/list?type=${query.type}&city=${query.city}&minPrice=${query.minPrice}&maxPrice=${query.maxPrice}`}
-            style={{ display: "flex", alignItems: "center" }}
           >
             <img src="/search.png" alt="Search" />
           </a>
