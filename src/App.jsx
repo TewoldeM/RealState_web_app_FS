@@ -4,6 +4,7 @@ import HomePage from "./routes/homepage/homePage.jsx";
 import ListPage from "./routes/listPostPage/listPages.jsx";
 import SinglePage from "./routes/singePage/SinglePage.jsx";
 import Login from "./routes/login/login.jsx";
+import ProfilePage from "./routes/profilePage/profilePage.jsx";
 function App() {
   const router = createBrowserRouter([
     {
@@ -14,6 +15,7 @@ function App() {
         { path: "/list", element: <ListPage /> },
         { path: "/:id", element: <SinglePage /> },
         { path: "/login", element: <Login /> },
+        { path: "/profile", element: <ProfilePage /> },
       ],
     },
   ]);
